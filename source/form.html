@@ -6,6 +6,7 @@
 </head>
 <body class="page__body">
   <header class="page-header">
+    <h1 class="visually-hidden">Страница формы, подбор программы по питанию</h1>
     <a class="page-header__logo">
      <img class="page-header__logo-image" src="/source/img/logo-desktop-1.svg" width="202" height="60" alt="Логотип Кэт-енержи"/>
     </a>
@@ -30,7 +31,7 @@
   </header>
   <main class="page-main">
     <header class="form-header">
-      <h1 class="form-header__title">Подбор программы</h1>
+      <h2 class="form-header__title">Подбор программы</h2>
       <p class="form-header__subtitle">
         Заполните анкету, и мы подберем
         программу питания для вашего кота
@@ -103,13 +104,11 @@
             </svg>
           </div>
         </fieldset>
-
         <div class="form-program__group form-comments">
           <label class="form-program__title" for="comments">Комментарий</label>
           <textarea class="form-comments__area" name="comments" id="comments"
             placeholder="Расскажите обо всех повадках кота" cols="30" rows="10"></textarea>
         </div>
-
         <fieldset class="form-program__group data-form">
           <legend class="form-program__title">Дополнительно</legend>
           <ul class="data-form__list">
@@ -131,7 +130,6 @@
             </li>
           </ul>
         </fieldset>
-
         <div class="program-form__send send">
           <button class="send__form button" type="button">Отправить заявку</button>
           <p class="send__text">* — Обязательные поля</p>
